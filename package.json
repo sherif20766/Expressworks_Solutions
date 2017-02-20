@@ -1,0 +1,23 @@
+{
+  "name": "Expressworks_Solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherif20766/Expressworks_Solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherif20766/Expressworks_Solutions/issues"
+  },
+  "homepage": "https://github.com/sherif20766/Expressworks_Solutions#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
