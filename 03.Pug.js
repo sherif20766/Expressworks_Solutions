@@ -14,13 +14,13 @@ const path = require("path");
 
 const port = process.argv[2];
 
-
-app.set("views", path.join(__dirname, 'templates'))
 app.set("view engine", "pug");
+app.set("views", path.join(__dirname, 'templates'))
+
 
 app.get("/home", (req, res)=>{
 	res.render("index", {date: new Date().toDateString()});
 });
 
-app.listen(port)
+app.listen(port || 3000);
 
